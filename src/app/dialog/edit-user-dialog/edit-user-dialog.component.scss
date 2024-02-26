@@ -1,0 +1,24 @@
+.mat-dialog-container {
+  min-width: 448px;
+  min-height: 300px;
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding:20px 24px;
+  }
+  mat-dialog-actions{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 24px ;
+  }
+  .submit-button {
+    border-radius: 60px;
+    font-size: 14px;
+  }
+  mat-error{
+    font-size: 12px;
+    text-align: right;
+  }
+}
+

@@ -1,0 +1,22 @@
+.container {
+  margin: 20px 20px;
+    h1,th{
+      color:rgb(78, 152, 231);
+    }
+    .td-name {
+      cursor: pointer;
+      &:hover {
+        text-decoration: underline;
+        color: rgb(78, 152, 231);
+      }
+    }
+    .td-name
+    tr.example-element-row:not(.example-expanded-row):hover {
+      background: whitesmoke;
+    }
+}
+
+
+
+
+
